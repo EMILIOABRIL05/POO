@@ -1,0 +1,20 @@
+@startuml
+
+class Calculadora {
+    - scanner: Scanner
+    --
+    + main(args: String[]): void
+    + mostrarMenu(): void
+    + leerEntero(mensaje: String): int
+    + leerDouble(mensaje: String): double
+    + realizarSuma(): void
+    + realizarResta(): void
+    + realizarMultiplicacion(): void
+    + realizarDivision(): void
+    + suma(a: double, b: double): double
+    + resta(a: double, b: double): double
+    + multiplicacion(a: double, b: double): double
+    + division(a: double, b: double): double
+}
+
+@enduml
