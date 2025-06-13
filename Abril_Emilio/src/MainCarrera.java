@@ -3,19 +3,20 @@ import java.util.Scanner;
 public class MainCarrera {
     private static Scanner scanner = new Scanner(System.in);
 
-    // Velocidades base predefinidas para cada tipo de vehículo
-    private static final double velocidadAutomovil = 80.0;  // km/h
-    private static final double velocidadMoto = 120.0;      // km/h
-    private static final double velocidadCamion = 60.0;     // km/h
+    // velocidades definidas de cada vehiculo
+    private static final double velocidadAutomovil = 80.0;
+    private static final double velocidadMoto = 120.0;
+    private static final double velocidadCamion = 60.0;
+    private static final double velocidadBicicleta=40.0;
 
     public static void main(String[] args) {
-        System.out.println("===== SIMULADOR DE CARRERAS =====");
+        System.out.println("----SIMULADOR DE CARRERAS----");
 
         // Solicitar número de vueltas
         int numVueltas = solicitarNumeroVueltas();
         Carrera carrera = new Carrera(numVueltas);
 
-        // Menú para agregar vehículos
+
         boolean seguirAgregando = true;
         while (seguirAgregando) {
             agregarVehiculo(carrera);
@@ -37,7 +38,7 @@ public class MainCarrera {
 
     private static int solicitarNumeroVueltas() {
         int vueltas = 0;
-        boolean entradaValida = false;
+        boolean entradaValida =false;
 
         while (!entradaValida) {
             System.out.print("Ingrese el número de vueltas para la carrera: ");
@@ -64,21 +65,22 @@ public class MainCarrera {
         System.out.println("1. Automovil (Velocidad: " + velocidadAutomovil + " km/h)");
         System.out.println("2. Moto (Velocidad: " + velocidadMoto + " km/h)");
         System.out.println("3. Camion (Velocidad: " + velocidadCamion + " km/h)");
+        System.out.println("4. Bicicleta (Velocidad: " + velocidadBicicleta + " km/h)");
 
         int tipoVehiculo = 0;
-        while (tipoVehiculo < 1 || tipoVehiculo > 3) {
+        while (tipoVehiculo < 1 || tipoVehiculo > 4) {
             System.out.print("Opción: ");
             try {
                 tipoVehiculo = Integer.parseInt(scanner.nextLine().trim());
-                if (tipoVehiculo < 1 || tipoVehiculo > 3) {
-                    System.out.println("Opción inválida. Seleccione 1, 2 o 3.");
+                if (tipoVehiculo < 1 || tipoVehiculo > 4) {
+                    System.out.println("Opción inválida. Seleccione 1, 2 , 3 o 4.");
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese un número válido");
             }
         }
 
-        // Solicitar datos del vehículo (solo marca y piloto)
+        // solicita datos de vehiculo como la marca y su piloto respectivo
         System.out.print("Ingrese la marca del vehículo: ");
         String marca = scanner.nextLine().trim();
 
@@ -88,7 +90,7 @@ public class MainCarrera {
         // Crear el piloto
         Piloto piloto = new Piloto(nombrePiloto);
 
-        // Crear y agregar el vehículo a la carrera con velocidad predefinida
+        // Creo y agrego el vehiculo con su respectiva velocidad
         Vehiculo vehiculo = null;
         double velocidadBase = 0;
 
@@ -105,6 +107,9 @@ public class MainCarrera {
                 velocidadBase = velocidadCamion;
                 vehiculo = new Camion(marca, piloto, velocidadBase);
                 break;
+            case 4:
+                velocidadBase = velocidadBicicleta;
+                vehiculo = new Bicleta(marca, piloto, velocidadBase);
         }
 
         if (vehiculo != null) {
