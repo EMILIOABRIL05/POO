@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27471f9a-3749-4a9e-b545-d8de39214d8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Camion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainCarrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Piloto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Abril_Emilio.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Abril_Emilio.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dado1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dado2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JuegoBarbuja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumaDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_Personal2/src/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_Personal2/src/Automovil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica_Personal2/src/MainCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica_Personal2/src/MainCarrera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "EMILIOABRIL05"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EMILIOABRIL05&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EMILIOABRIL05/POO.git",
-    "accountId": "a4cc8fc0-bb1d-4f4b-94b8-d3034fb7f91b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EMILIOABRIL05/POO.git&quot;,
+    &quot;accountId&quot;: &quot;a4cc8fc0-bb1d-4f4b-94b8-d3034fb7f91b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -97,6 +79,8 @@
       <updated>1749845298108</updated>
       <workItem from="1749845299780" duration="3182000" />
       <workItem from="1749853437204" duration="68000" />
+      <workItem from="1750332815300" duration="29000" />
+      <workItem from="1750417345744" duration="774000" />
     </task>
     <servers />
   </component>
